@@ -1,0 +1,862 @@
+@font-face {
+    font-family: sydney-icons;
+    src: url(../fonts/sydney-icons5c66.eot?7a1mvl);
+    src: url(../fonts/sydney-icons5c66.eot?7a1mvl#iefix) format('embedded-opentype'), url(../fonts/sydney-icons5c66.ttf?7a1mvl) format('truetype'), url(../fonts/sydney-icons5c66.woff?7a1mvl) format('woff'), url(../fonts/sydney-icons5c66.svg?7a1mvl#sydney-icons) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+[class*=" sydney-icon-"],
+[class^=sydney-icon-] {
+    font-family: sydney-icons!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.sydney-icon-active:before {
+    content: "\e900"
+}
+.sydney-icon-add:before {
+    content: "\e901"
+}
+.sydney-icon-alarm:before {
+    content: "\e902"
+}
+.sydney-icon-apple1:before {
+    content: "\e903"
+}
+.sydney-icon-apple2:before {
+    content: "\e904"
+}
+.sydney-icon-apple3:before {
+    content: "\e905"
+}
+.sydney-icon-apple4:before {
+    content: "\e906"
+}
+.sydney-icon-apple5:before {
+    content: "\e907"
+}
+.sydney-icon-apple6:before {
+    content: "\e908"
+}
+.sydney-icon-audio:before {
+    content: "\e909"
+}
+.sydney-icon-bag:before {
+    content: "\e90a"
+}
+.sydney-icon-balance:before {
+    content: "\e90b"
+}
+.sydney-icon-basket:before {
+    content: "\e90c"
+}
+.sydney-icon-battery1:before {
+    content: "\e90d"
+}
+.sydney-icon-battery2:before {
+    content: "\e90e"
+}
+.sydney-icon-battery3:before {
+    content: "\e90f"
+}
+.sydney-icon-battery4:before {
+    content: "\e910"
+}
+.sydney-icon-bin:before {
+    content: "\e911"
+}
+.sydney-icon-book:before {
+    content: "\e912"
+}
+.sydney-icon-briefcase:before {
+    content: "\e913"
+}
+.sydney-icon-browser1:before {
+    content: "\e914"
+}
+.sydney-icon-browser2:before {
+    content: "\e915"
+}
+.sydney-icon-bug:before {
+    content: "\e916"
+}
+.sydney-icon-bulb:before {
+    content: "\e917"
+}
+.sydney-icon-button1:before {
+    content: "\e918"
+}
+.sydney-icon-button2:before {
+    content: "\e919"
+}
+.sydney-icon-button3:before {
+    content: "\e91a"
+}
+.sydney-icon-cake:before {
+    content: "\e91b"
+}
+.sydney-icon-calendar:before {
+    content: "\e91c"
+}
+.sydney-icon-call:before {
+    content: "\e91d"
+}
+.sydney-icon-camera1:before {
+    content: "\e91e"
+}
+.sydney-icon-camera2:before {
+    content: "\e91f"
+}
+.sydney-icon-cancel:before {
+    content: "\e920"
+}
+.sydney-icon-cart:before {
+    content: "\e921"
+}
+.sydney-icon-caution:before {
+    content: "\e922"
+}
+.sydney-icon-chain1:before {
+    content: "\e923"
+}
+.sydney-icon-chain2:before {
+    content: "\e924"
+}
+.sydney-icon-charging:before {
+    content: "\e925"
+}
+.sydney-icon-chart1:before {
+    content: "\e926"
+}
+.sydney-icon-chart2:before {
+    content: "\e927"
+}
+.sydney-icon-chart3:before {
+    content: "\e928"
+}
+.sydney-icon-check1:before {
+    content: "\e929"
+}
+.sydney-icon-check2:before {
+    content: "\e92a"
+}
+.sydney-icon-cinema1:before {
+    content: "\e92b"
+}
+.sydney-icon-cinema2:before {
+    content: "\e92c"
+}
+.sydney-icon-cinema3:before {
+    content: "\e92d"
+}
+.sydney-icon-circular1:before {
+    content: "\e92e"
+}
+.sydney-icon-circular2:before {
+    content: "\e92f"
+}
+.sydney-icon-clipboard:before {
+    content: "\e930"
+}
+.sydney-icon-clock1:before {
+    content: "\e931"
+}
+.sydney-icon-clock2:before {
+    content: "\e932"
+}
+.sydney-icon-cloud1:before {
+    content: "\e933"
+}
+.sydney-icon-cloud2:before {
+    content: "\e934"
+}
+.sydney-icon-cloud3:before {
+    content: "\e935"
+}
+.sydney-icon-cloud4:before {
+    content: "\e936"
+}
+.sydney-icon-cloud5:before {
+    content: "\e937"
+}
+.sydney-icon-cloud6:before {
+    content: "\e938"
+}
+.sydney-icon-clouds1:before {
+    content: "\e939"
+}
+.sydney-icon-clouds2:before {
+    content: "\e93a"
+}
+.sydney-icon-cloudy1:before {
+    content: "\e93b"
+}
+.sydney-icon-cloudy2:before {
+    content: "\e93c"
+}
+.sydney-icon-cloudy3:before {
+    content: "\e93d"
+}
+.sydney-icon-cocktail:before {
+    content: "\e93e"
+}
+.sydney-icon-coffee-cup:before {
+    content: "\e93f"
+}
+.sydney-icon-coffee-shop1:before {
+    content: "\e940"
+}
+.sydney-icon-coffee-shop2:before {
+    content: "\e941"
+}
+.sydney-icon-coffee-shop3:before {
+    content: "\e942"
+}
+.sydney-icon-coffee-shop4:before {
+    content: "\e943"
+}
+.sydney-icon-coffee-shop5:before {
+    content: "\e944"
+}
+.sydney-icon-coffee-shop6:before {
+    content: "\e945"
+}
+.sydney-icon-coffee-shop7:before {
+    content: "\e946"
+}
+.sydney-icon-coffee-shop8:before {
+    content: "\e947"
+}
+.sydney-icon-coffee-shop9:before {
+    content: "\e948"
+}
+.sydney-icon-coffee-shop10:before {
+    content: "\e949"
+}
+.sydney-icon-coffee-shop11:before {
+    content: "\e94a"
+}
+.sydney-icon-coffee-shop12:before {
+    content: "\e94b"
+}
+.sydney-icon-coffee-shop13:before {
+    content: "\e94c"
+}
+.sydney-icon-coffee-shop14:before {
+    content: "\e94d"
+}
+.sydney-icon-coffee-shop15:before {
+    content: "\e94e"
+}
+.sydney-icon-coffee-shop16:before {
+    content: "\e94f"
+}
+.sydney-icon-coffee-shop17:before {
+    content: "\e950"
+}
+.sydney-icon-coffee-shop18:before {
+    content: "\e951"
+}
+.sydney-icon-coffee-shop19:before {
+    content: "\e952"
+}
+.sydney-icon-coffee-shop20:before {
+    content: "\e953"
+}
+.sydney-icon-coffee-shop21:before {
+    content: "\e954"
+}
+.sydney-icon-coffee-shop22:before {
+    content: "\e955"
+}
+.sydney-icon-coffee-shop23:before {
+    content: "\e956"
+}
+.sydney-icon-coffee-shop24:before {
+    content: "\e957"
+}
+.sydney-icon-coffee-shop25:before {
+    content: "\e958"
+}
+.sydney-icon-coffee-shop26:before {
+    content: "\e959"
+}
+.sydney-icon-coffee-shop27:before {
+    content: "\e95a"
+}
+.sydney-icon-coffee-shop28:before {
+    content: "\e95b"
+}
+.sydney-icon-coffee-shop29:before {
+    content: "\e95c"
+}
+.sydney-icon-coffee-shop30:before {
+    content: "\e95d"
+}
+.sydney-icon-coffee-shop31:before {
+    content: "\e95e"
+}
+.sydney-icon-coffee-shop32:before {
+    content: "\e95f"
+}
+.sydney-icon-coffee-shop33:before {
+    content: "\e960"
+}
+.sydney-icon-coffee-shop34:before {
+    content: "\e961"
+}
+.sydney-icon-coffee-shop35:before {
+    content: "\e962"
+}
+.sydney-icon-coffee-shop36:before {
+    content: "\e963"
+}
+.sydney-icon-coffee-shop37:before {
+    content: "\e964"
+}
+.sydney-icon-coffee-shop38:before {
+    content: "\e965"
+}
+.sydney-icon-coffee-shop39:before {
+    content: "\e966"
+}
+.sydney-icon-coffee-shop40:before {
+    content: "\e967"
+}
+.sydney-icon-coffee-shop41:before {
+    content: "\e968"
+}
+.sydney-icon-coffee-shop42:before {
+    content: "\e969"
+}
+.sydney-icon-coffee-shop43:before {
+    content: "\e96a"
+}
+.sydney-icon-coffee-shop44:before {
+    content: "\e96b"
+}
+.sydney-icon-coffee-shop45:before {
+    content: "\e96c"
+}
+.sydney-icon-coffee-shop46:before {
+    content: "\e96d"
+}
+.sydney-icon-coffee-shop47:before {
+    content: "\e96e"
+}
+.sydney-icon-coffee-shop48:before {
+    content: "\e96f"
+}
+.sydney-icon-cogwheel:before {
+    content: "\e970"
+}
+.sydney-icon-compact-disc:before {
+    content: "\e971"
+}
+.sydney-icon-company:before {
+    content: "\e972"
+}
+.sydney-icon-computer1:before {
+    content: "\e973"
+}
+.sydney-icon-computer2:before {
+    content: "\e974"
+}
+.sydney-icon-computer-mouse:before {
+    content: "\e975"
+}
+.sydney-icon-computing1:before {
+    content: "\e976"
+}
+.sydney-icon-computing2:before {
+    content: "\e977"
+}
+.sydney-icon-computing3:before {
+    content: "\e978"
+}
+.sydney-icon-connection1:before {
+    content: "\e979"
+}
+.sydney-icon-connection2:before {
+    content: "\e97a"
+}
+.sydney-icon-costume:before {
+    content: "\e97b"
+}
+.sydney-icon-coverage:before {
+    content: "\e97c"
+}
+.sydney-icon-cropping:before {
+    content: "\e97d"
+}
+.sydney-icon-cup:before {
+    content: "\e97e"
+}
+.sydney-icon-curve-arrows:before {
+    content: "\e97f"
+}
+.sydney-icon-dish:before {
+    content: "\e980"
+}
+.sydney-icon-down:before {
+    content: "\e981"
+}
+.sydney-icon-download1:before {
+    content: "\e982"
+}
+.sydney-icon-download2:before {
+    content: "\e983"
+}
+.sydney-icon-downloading:before {
+    content: "\e984"
+}
+.sydney-icon-earphones:before {
+    content: "\e985"
+}
+.sydney-icon-earth-grid:before {
+    content: "\e986"
+}
+.sydney-icon-envelope:before {
+    content: "\e987"
+}
+.sydney-icon-ereader:before {
+    content: "\e988"
+}
+.sydney-icon-favorite1:before {
+    content: "\e989"
+}
+.sydney-icon-favourite2:before {
+    content: "\e98a"
+}
+.sydney-icon-file:before {
+    content: "\e98b"
+}
+.sydney-icon-film:before {
+    content: "\e98c"
+}
+.sydney-icon-flag:before {
+    content: "\e98d"
+}
+.sydney-icon-flask:before {
+    content: "\e98e"
+}
+.sydney-icon-foggy:before {
+    content: "\e98f"
+}
+.sydney-icon-folder:before {
+    content: "\e990"
+}
+.sydney-icon-game:before {
+    content: "\e991"
+}
+.sydney-icon-garbage:before {
+    content: "\e992"
+}
+.sydney-icon-gift:before {
+    content: "\e993"
+}
+.sydney-icon-globe:before {
+    content: "\e994"
+}
+.sydney-icon-graduation:before {
+    content: "\e995"
+}
+.sydney-icon-half-moon1:before {
+    content: "\e996"
+}
+.sydney-icon-half-moon2:before {
+    content: "\e997"
+}
+.sydney-icon-hand1:before {
+    content: "\e998"
+}
+.sydney-icon-hand2:before {
+    content: "\e999"
+}
+.sydney-icon-hand3:before {
+    content: "\e99a"
+}
+.sydney-icon-hand4:before {
+    content: "\e99b"
+}
+.sydney-icon-heat:before {
+    content: "\e99c"
+}
+.sydney-icon-home:before {
+    content: "\e99d"
+}
+.sydney-icon-key:before {
+    content: "\e99e"
+}
+.sydney-icon-keys:before {
+    content: "\e99f"
+}
+.sydney-icon-label:before {
+    content: "\e9a0"
+}
+.sydney-icon-lcd:before {
+    content: "\e9a1"
+}
+.sydney-icon-left:before {
+    content: "\e9a2"
+}
+.sydney-icon-left-arrow:before {
+    content: "\e9a3"
+}
+.sydney-icon-like:before {
+    content: "\e9a4"
+}
+.sydney-icon-linked:before {
+    content: "\e9a5"
+}
+.sydney-icon-location1:before {
+    content: "\e9a6"
+}
+.sydney-icon-location2:before {
+    content: "\e9a7"
+}
+.sydney-icon-loudspeaker:before {
+    content: "\e9a8"
+}
+.sydney-icon-magnifier:before {
+    content: "\e9a9"
+}
+.sydney-icon-magnifying-glass:before {
+    content: "\e9aa"
+}
+.sydney-icon-mail:before {
+    content: "\e9ab"
+}
+.sydney-icon-medal:before {
+    content: "\e9ac"
+}
+.sydney-icon-message1:before {
+    content: "\e9ad"
+}
+.sydney-icon-message2:before {
+    content: "\e9ae"
+}
+.sydney-icon-mic:before {
+    content: "\e9af"
+}
+.sydney-icon-microphone:before {
+    content: "\e9b0"
+}
+.sydney-icon-mobile-phone:before {
+    content: "\e9b1"
+}
+.sydney-icon-monitor1:before {
+    content: "\e9b2"
+}
+.sydney-icon-monitor2:before {
+    content: "\e9b3"
+}
+.sydney-icon-movie:before {
+    content: "\e9b4"
+}
+.sydney-icon-mp31:before {
+    content: "\e9b5"
+}
+.sydney-icon-mp32:before {
+    content: "\e9b6"
+}
+.sydney-icon-mp33:before {
+    content: "\e9b7"
+}
+.sydney-icon-mp34:before {
+    content: "\e9b8"
+}
+.sydney-icon-mp35:before {
+    content: "\e9b9"
+}
+.sydney-icon-multimedia-option1:before {
+    content: "\e9ba"
+}
+.sydney-icon-multimedia-option2:before {
+    content: "\e9bb"
+}
+.sydney-icon-multimedia-option3:before {
+    content: "\e9bc"
+}
+.sydney-icon-multimedia-option4:before {
+    content: "\e9bd"
+}
+.sydney-icon-mute:before {
+    content: "\e9be"
+}
+.sydney-icon-night:before {
+    content: "\e9bf"
+}
+.sydney-icon-note:before {
+    content: "\e9c0"
+}
+.sydney-icon-notebook:before {
+    content: "\e9c1"
+}
+.sydney-icon-notes1:before {
+    content: "\e9c2"
+}
+.sydney-icon-notes2:before {
+    content: "\e9c3"
+}
+.sydney-icon-ocean1:before {
+    content: "\e9c4"
+}
+.sydney-icon-ocean2:before {
+    content: "\e9c5"
+}
+.sydney-icon-outbox:before {
+    content: "\e9c6"
+}
+.sydney-icon-padlock1:before {
+    content: "\e9c7"
+}
+.sydney-icon-padlock2:before {
+    content: "\e9c8"
+}
+.sydney-icon-password:before {
+    content: "\e9c9"
+}
+.sydney-icon-pencil:before {
+    content: "\e9ca"
+}
+.sydney-icon-pencils:before {
+    content: "\e9cb"
+}
+.sydney-icon-photograph:before {
+    content: "\e9cc"
+}
+.sydney-icon-photography:before {
+    content: "\e9cd"
+}
+.sydney-icon-pin1:before {
+    content: "\e9ce"
+}
+.sydney-icon-pin2:before {
+    content: "\e9cf"
+}
+.sydney-icon-play:before {
+    content: "\e9d0"
+}
+.sydney-icon-power:before {
+    content: "\e9d1"
+}
+.sydney-icon-print:before {
+    content: "\e9d2"
+}
+.sydney-icon-profile:before {
+    content: "\e9d3"
+}
+.sydney-icon-prohibition:before {
+    content: "\e9d4"
+}
+.sydney-icon-projection:before {
+    content: "\e9d5"
+}
+.sydney-icon-puzzle-piece:before {
+    content: "\e9d6"
+}
+.sydney-icon-quaver:before {
+    content: "\e9d7"
+}
+.sydney-icon-question:before {
+    content: "\e9d8"
+}
+.sydney-icon-question-mark:before {
+    content: "\e9d9"
+}
+.sydney-icon-radio:before {
+    content: "\e9da"
+}
+.sydney-icon-rain1:before {
+    content: "\e9db"
+}
+.sydney-icon-rain2:before {
+    content: "\e9dc"
+}
+.sydney-icon-rainy1:before {
+    content: "\e9dd"
+}
+.sydney-icon-rainy2:before {
+    content: "\e9de"
+}
+.sydney-icon-rainy3:before {
+    content: "\e9df"
+}
+.sydney-icon-rainy4:before {
+    content: "\e9e0"
+}
+.sydney-icon-reader:before {
+    content: "\e9e1"
+}
+.sydney-icon-real-estate:before {
+    content: "\e9e2"
+}
+.sydney-icon-remote-control1:before {
+    content: "\e9e3"
+}
+.sydney-icon-remote-control2:before {
+    content: "\e9e4"
+}
+.sydney-icon-repair:before {
+    content: "\e9e5"
+}
+.sydney-icon-right:before {
+    content: "\e9e6"
+}
+.sydney-icon-sand:before {
+    content: "\e9e7"
+}
+.sydney-icon-save-file:before {
+    content: "\e9e8"
+}
+.sydney-icon-screen:before {
+    content: "\e9e9"
+}
+.sydney-icon-screwdriver:before {
+    content: "\e9ea"
+}
+.sydney-icon-setting:before {
+    content: "\e9eb"
+}
+.sydney-icon-sheet:before {
+    content: "\e9ec"
+}
+.sydney-icon-shield:before {
+    content: "\e9ed"
+}
+.sydney-icon-smartphone1:before {
+    content: "\e9ee"
+}
+.sydney-icon-smartphone2:before {
+    content: "\e9ef"
+}
+.sydney-icon-smartphone3:before {
+    content: "\e9f0"
+}
+.sydney-icon-smartphone4:before {
+    content: "\e9f1"
+}
+.sydney-icon-snow:before {
+    content: "\e9f2"
+}
+.sydney-icon-snowy:before {
+    content: "\e9f3"
+}
+.sydney-icon-soft:before {
+    content: "\e9f4"
+}
+.sydney-icon-sound:before {
+    content: "\e9f5"
+}
+.sydney-icon-speaker:before {
+    content: "\e9f6"
+}
+.sydney-icon-square1:before {
+    content: "\e9f7"
+}
+.sydney-icon-square2:before {
+    content: "\e9f8"
+}
+.sydney-icon-stars:before {
+    content: "\e9f9"
+}
+.sydney-icon-sun:before {
+    content: "\e9fa"
+}
+.sydney-icon-sunny:before {
+    content: "\e9fb"
+}
+.sydney-icon-tablet:before {
+    content: "\e9fc"
+}
+.sydney-icon-tea:before {
+    content: "\e9fd"
+}
+.sydney-icon-telephone:before {
+    content: "\e9fe"
+}
+.sydney-icon-television:before {
+    content: "\e9ff"
+}
+.sydney-icon-temperature:before {
+    content: "\ea00"
+}
+.sydney-icon-thermometer:before {
+    content: "\ea01"
+}
+.sydney-icon-tool1:before {
+    content: "\ea02"
+}
+.sydney-icon-tool2:before {
+    content: "\ea03"
+}
+.sydney-icon-tool3:before {
+    content: "\ea04"
+}
+.sydney-icon-tool4:before {
+    content: "\ea05"
+}
+.sydney-icon-tv:before {
+    content: "\ea06"
+}
+.sydney-icon-tv-screen:before {
+    content: "\ea07"
+}
+.sydney-icon-up:before {
+    content: "\ea08"
+}
+.sydney-icon-update1:before {
+    content: "\ea09"
+}
+.sydney-icon-update2:before {
+    content: "\ea0a"
+}
+.sydney-icon-usb:before {
+    content: "\ea0b"
+}
+.sydney-icon-video-camera1:before {
+    content: "\ea0c"
+}
+.sydney-icon-video-camera2:before {
+    content: "\ea0d"
+}
+.sydney-icon-view:before {
+    content: "\ea0e"
+}
+.sydney-icon-wallet:before {
+    content: "\ea0f"
+}
+.sydney-icon-wand:before {
+    content: "\ea10"
+}
+.sydney-icon-water:before {
+    content: "\ea11"
+}
+.sydney-icon-wealth:before {
+    content: "\ea12"
+}
+.sydney-icon-wind1:before {
+    content: "\ea13"
+}
+.sydney-icon-wind2:before {
+    content: "\ea14"
+}
+.sydney-icon-windy1:before {
+    content: "\ea15"
+}
+.sydney-icon-windy2:before {
+    content: "\ea16"
+}
+.sydney-icon-wireless-connectivity:before {
+    content: "\ea17"
+}
+.sydney-icon-zooming:before {
+    content: "\ea18"
+}
